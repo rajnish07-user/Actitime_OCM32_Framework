@@ -12,6 +12,7 @@ public class Day2 {
 	driver.manage().window().maximize();
 	System.out.println("hello");
 	driver.close();
+	driver.quit();
 
 	}
 }
